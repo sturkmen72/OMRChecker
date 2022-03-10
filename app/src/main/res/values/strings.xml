@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OMR Checker</string>
+    <string name="app_name">The Chosen OMR</string>
 
     <string name="camera_permission_confirmation">This app require permission to access camera for scanning OMR Sheet.</string>
     <string name="camera_permission_not_granted">This app cannot do anything without camera permission.</string>
@@ -48,7 +48,9 @@
     <string name="url_privacy_policy">http://letssolvetogether.in/privacy.html</string>
     <string name="url_fb_letssolvetogether">https://fb.com/letssolvetogether.in</string>
     <string name="url_letssolvetogether">http://letssolvetogether.in</string>
-
+    <string name="answer_key">Answer Key</string>
+    <string name="answers_saved">Answers saved</string>
+    <string name="go_to_next">GO FOR NEXT SCAN</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>

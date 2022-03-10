@@ -3,7 +3,7 @@
         android:title="@string/title_preference_tutorial"
         android:key="@string/key_preference_tutorial">
         <intent
-            android:action="com.letssolvetogether.omr.tutorial.TutorialActivity" />
+            android:action="com.thechosen.omr.tutorial.TutorialActivity" />
     </Preference>
     <Preference
         android:title="@string/title_preference_answersheets"
@@ -13,7 +13,7 @@
             android:action="android.intent.action.VIEW"
             android:data="@string/url_answersheet_20_questions" />
     </Preference>
-    <com.letssolvetogether.omr.settings.preference.OpenSourceLicensePreference
+    <com.thechosen.omr.settings.preference.OpenSourceLicensePreference
         android:title="@string/title_preference_opensourcelibraries"
         android:dialogTitle="@string/dialog_title_preference_opensourcelibraries"
         android:key="@string/key_preference_opensourcelibraries"/>

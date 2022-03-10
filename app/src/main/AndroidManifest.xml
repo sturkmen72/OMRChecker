@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.letssolvetogether.omr.main">
+    package="com.thechosen.omr.main">
 
     <application
         android:allowBackup="true"
@@ -10,25 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.letssolvetogether.omr.home.ui.HomeActivity"
+            android:name="com.thechosen.omr.home.ui.HomeActivity"
             android:label="@string/app_name" />
-        <activity android:name="com.letssolvetogether.omr.omrkey.ui.OMRKeyActivity" />
+        <activity android:name="com.thechosen.omr.omrkey.ui.OMRKeyActivity" />
         <activity
-            android:name="com.letssolvetogether.omr.camera.ui.CameraActivity"
+            android:name="com.thechosen.omr.camera.ui.CameraActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name="com.letssolvetogether.omr.settings.SettingsActivity"
+            android:name="com.thechosen.omr.settings.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name="com.letssolvetogether.omr.tutorial.TutorialActivity">
+        <activity android:name="com.thechosen.omr.tutorial.TutorialActivity">
             <intent-filter>
-                <action android:name="com.letssolvetogether.omr.tutorial.TutorialActivity"/>
+                <action android:name="com.thechosen.omr.tutorial.TutorialActivity"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.letssolvetogether.omr.firstrun.FirstRunActivity">
+        <activity android:name="com.thechosen.omr.firstrun.FirstRunActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

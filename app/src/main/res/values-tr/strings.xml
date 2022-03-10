@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">The Chosen OMR</string>
+
+    <string name="camera_permission_confirmation">Bu uygulama, Optik Form taramak için kameraya erişim izni gerektirir.</string>
+    <string name="camera_permission_not_granted">Bu uygulama kamera izni olmadan hiçbir şey yapamaz.</string>
+
+    <string name="picture_taken">Fotoğraf çekildi</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan_omr">Tarayıcıyı Aç</string>
+    <string name="title_more">Daha Fazla</string>
+    <string name="no_of_questions">Soru sayısı</string>
+
+    <!-- OMR Sheet Types -->
+    <string name="twenty">20</string>
+    <string name="hundred">100</string>
+
+    <!-- OMR Key -->
+    <string name="title_answer_key">Cevap Anahtarı</string>
+    <string name="save_answer_key">(Cevap anahtarını kaydetmek için geri tuşuna basın)</string>
+
+    <!-- Preference -->
+
+    <string name="title_preference_tutorial">Öğretici</string>
+    <string name="key_preference_tutorial">tutorial</string>
+
+    <string name="title_preference_answersheets">Cevap Kağıtları</string>
+    <string name="key_preference_answersheets">answersheets</string>
+
+    <string name="title_preference_opensourcelibraries">Açık Kaynaklı Kütüphaneler</string>
+    <string name="dialog_title_preference_opensourcelibraries"></string>
+    <string name="key_preference_opensourcelibraries">opensourcelibraries</string>
+
+    <string name="title_preference_privacy_policy">Gizlilik Politikası</string>
+    <string name="key_preference_privacy_policy">privacypolicy</string>
+
+    <string name="title_preference_contactus">İletişim</string>
+    <string name="key_preference_contactus">contactus</string>
+
+    <string name="title_preference_about">Hakkında</string>
+    <string name="key_preference_about">about</string>
+
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="url_answersheet_20_questions">http://letssolvetogether.in/answersheets/letssolvetogether_20_questions.pdf</string>
+    <string name="url_privacy_policy">http://letssolvetogether.in/privacy.html</string>
+    <string name="url_fb_letssolvetogether">https://fb.com/letssolvetogether.in</string>
+    <string name="url_letssolvetogether">http://letssolvetogether.in</string>
+    <string name="answer_key">Cevap Anahtarı</string>
+    <string name="answers_saved">Cevap Anahtarı Kaydedildi</string>
+    <string name="go_to_next">SONRAKİ TARAMAYA GEÇİNİZ</string>
+    <string name="next">SONRAKİ</string>
+    <string name="skip">ATLA</string>
+    <string name="start">ANLADIM</string>
+
+    <string name="slide_1_title">The Chosen OMR</string>
+    <string name="slide_1_desc">Geliştirme Prototipi</string>
+
+    <string name="slide_2_title">Cevap Anahtarını Girin</string>
+    <string name="slide_2_desc"></string>
+
+    <string name="slide_3_title">Optik Formu Taratın</string>
+    <string name="slide_3_desc"></string>
+
+    <string name="slide_4_title">Sonucu Öğrenin</string>
+    <string name="slide_4_desc"></string>
+
+</resources>
