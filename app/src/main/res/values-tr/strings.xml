@@ -20,7 +20,7 @@
 
     <!-- OMR Key -->
     <string name="title_answer_key">Cevap Anahtarı</string>
-    <string name="save_answer_key">(Cevap anahtarını kaydetmek için geri tuşuna basın)</string>
+    <string name="save_answer_key">(Cevap anahtarını kaydetmek için geri tuşuna basınız)</string>
 
     <!-- Preference -->
 
@@ -30,7 +30,7 @@
     <string name="title_preference_answersheets">Cevap Kağıtları</string>
     <string name="key_preference_answersheets">answersheets</string>
 
-    <string name="title_preference_opensourcelibraries">Açık Kaynaklı Kütüphaneler</string>
+    <string name="title_preference_opensourcelibraries">Kullanılan Açık Kaynaklı Kütüphaneler</string>
     <string name="dialog_title_preference_opensourcelibraries"></string>
     <string name="key_preference_opensourcelibraries">opensourcelibraries</string>
 
@@ -44,10 +44,10 @@
     <string name="key_preference_about">about</string>
 
     <string name="title_activity_settings">Ayarlar</string>
-    <string name="url_answersheet_20_questions">http://letssolvetogether.in/answersheets/letssolvetogether_20_questions.pdf</string>
-    <string name="url_privacy_policy">http://letssolvetogether.in/privacy.html</string>
-    <string name="url_fb_letssolvetogether">https://fb.com/letssolvetogether.in</string>
-    <string name="url_letssolvetogether">http://letssolvetogether.in</string>
+    <string name="url_answersheet_20_questions">https://github.com/sturkmen72/OMRChecker/letssolvetogether_20_questions.pdf</string>
+    <string name="url_privacy_policy">https://github.com/sturkmen72/OMRChecker</string>
+    <string name="url_fb_letssolvetogether">https://github.com/sturkmen72/OMRChecker</string>
+    <string name="url_letssolvetogether">https://github.com/sturkmen72/OMRChecker</string>
     <string name="answer_key">Cevap Anahtarı</string>
     <string name="answers_saved">Cevap Anahtarı Kaydedildi</string>
     <string name="go_to_next">SONRAKİ TARAMAYA GEÇİNİZ</string>
