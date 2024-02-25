@@ -14,7 +14,6 @@ import android.widget.RadioGroup;
 
 import com.instacart.library.truetime.TrueTime;
 import com.thechosen.omr.main.R;
-import com.thechosen.omr.truetime.InitTrueTimeAsyncTask;
 import com.thechosen.omr.omrkey.ui.OMRKeyActivity;
 import com.thechosen.omr.settings.SettingsActivity;
 import com.thechosen.omr.camera.ui.CameraActivity;
@@ -117,16 +116,10 @@ public class HomeActivity extends AppCompatActivity{
             dialogTips.setOnDismissListener(new DialogInterface.OnDismissListener() {
                 @Override
                 public void onDismiss(DialogInterface dialogInterface) {
-                    if(!TrueTime.isInitialized()){
-                        new InitTrueTimeAsyncTask(HomeActivity.this).execute();
-                    }
                 }
             });
             dialogTips.show();
         }else {
-            if (!TrueTime.isInitialized()) {
-                new InitTrueTimeAsyncTask(HomeActivity.this).execute();
-            }
         }
     }
 }
